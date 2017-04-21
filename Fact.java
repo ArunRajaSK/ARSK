@@ -1,20 +1,14 @@
-package Execution;
-import java.util.Scanner;
-public class Fact {
+package java1;
 
-	public static void main(String[] args) 
+public class Fact 
+{
+	void fct(int n)
 	{
-		// TODO Auto-generated method stub
-		int fact=1,n;
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter Number :");
-		n=sc.nextInt();
+		int f=1;
 		for(int i=1;i<=n;i++)
 		{
-			fact=fact*i;
+			f=f*i;
 		}
-		System.out.println("Factorial :"+fact);
-		sc.close();
+		System.out.println("Factorial : "+f);
 	}
-
 }
